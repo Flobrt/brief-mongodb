@@ -59,9 +59,7 @@ Organisation hiérarchique
     Document : Contient des paires clé-valeur représentant des données.
 
 Visualisation :
-
 ```bash
-
 Base de données (shopDB)
     ├── Collection (users)
     │   ├── Document { "name": "Alice", "age": 25, ... }
@@ -87,9 +85,7 @@ Base de données (shopDB)
     Un document est l’unité de base de données dans MongoDB. Il s'agit d'une structure de type JSON (plus précisément BSON, un format binaire de JSON optimisé pour MongoDB).
     Les documents stockent des données sous forme de paires clé-valeur. Chaque clé est unique au sein du document, et les valeurs peuvent être de différents types, comme des chaînes, des nombres, des tableaux, ou même des documents imbriqués.
     Exemple de document :
-
 ```json
-
 {
   "_id": ObjectId("507f1f77bcf86cd799439011"),
   "name": "Alice",
